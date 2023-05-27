@@ -52,12 +52,79 @@
 }
    
 .navigation3{
-    width: 249px;
+    width: 150px;
     display: flex;
     flex-direction: column;
-    font-size: 10px;
+    font-size: 11px;
     margin-top: 25px;
+    margin-left: 25px;
+    justify-content: space-around;
 }
 span{
-    justify-content: space-around ;
+    text-decoration: none; color: rgba(255, 251, 251, 0.699); 
+    border-radius: 1px;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
+span :hover{
+    
+    cursor: pointer;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+
+}
+.s1{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.s2{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.s3{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.s4{
+    padding: 5px;
+    padding-left: 14px;
+}
+.signupbar{
+    width: 100%;
+    height: 65px;
+    justify-content: center;
+    background-image: linear-gradient(to right,rgb(133, 21, 133),rgb(155, 93, 155),rgb(136, 112, 202),skyblue );
+    position: absolute;
+    bottom: 0px;
+    position: fixed;
+    text-align: left;
+}
+.p1{
+    font-size: 13px;
+    padding: 12px 14px 0px 14px;
+    font-weight: 25;
+    text-decoration: solid;color: aliceblue;
+    list-style: none;
+  
+}
+.p2{
+    list-style: none;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: light;
+    text-decoration: solid;color: aliceblue;word-spacing: 1px;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+.signupbar :hover{
+    cursor: pointer;
